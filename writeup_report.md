@@ -37,8 +37,8 @@ There were a bunch of preprocessing that I removed, as the results were not sati
 
 ####1. An appropriate model arcthiecture has been employed
 
-My model is the one as mentioned in the [NVIDIA paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)
-It involves 5 CNN layers (depth: 3 -> 24 -> 36 -> 48 -> 64 -> 64) with max pooling 
+My model is the one as mentioned in the [NVIDIA paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
+It involves 5 CNN layers (depth: 3 -> 24 -> 36 -> 48 -> 64 -> 64) with max pooling and 3 fully connected layer.
 
 ####2. Attempts to reduce overfitting in the model
 
